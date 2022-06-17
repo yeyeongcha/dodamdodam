@@ -1,0 +1,99 @@
+
+/*배너*/
+body{
+  min-width: 1920px;
+  background-color: #e6edd4;
+}
+header {
+  height: 81px;
+  text-align: center;
+}
+
+header h1{
+  position: absolute;
+  left: 380px;
+  top: 0;
+  padding: 20px 0 0;
+}
+
+header h1 a{
+  display: block;
+  width: 270px;
+  height: 90px;
+  color: transparent;
+  background: url("../../img/home_be.png") no-repeat;
+}
+
+
+/*메뉴*/
+header .menu li{
+  display: inline-block;
+  top: 100px;
+}
+
+header .menu li a{
+  display: block;
+  height: 81px;
+  padding: 20px 45px;
+  font-size: 18px;
+  color: #333;
+  line-height: 81px;
+}
+
+header .menu li a:hover{ /*마우스 대면*/
+  color: #ee6e51;
+  font-weight: bold;
+  text-decoration: underline;
+  background
+}
+
+/*로그인*/
+header .log {
+  position: absolute;
+  left: 1430px;
+  width: 100px;
+  top: 45px;
+}
+
+header .log li. a{
+  display: block;
+  height: 90px;
+  padding: 10px 10px;
+  line-height: 81px;
+  font-size: 20px;
+}
+
+header .log li:last-child a {
+  padding-right: 0px;
+}
+
+
+/*책꽃이*/
+.book{
+  padding: 45px 0 10px 450px;
+}
+
+/*하단*/
+footer{
+  background-color: #9aa777;
+  padding: 10px;
+  height: 130px;
+}
+footer >div{
+  width: 1175px;
+  padding: 10px;
+  margin: 0 auto;
+}
+footer >div .bot{
+  float: left;
+}
+footer >div .bot p span{
+  padding: 0 30px 0 0 ;
+}
+footer >div .bot li{
+  list-style: none;
+  line-height: 23px;
+  font-size:12px;
+  font:bold;
+  color: #141412;
+}

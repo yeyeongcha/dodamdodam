@@ -1,0 +1,94 @@
+@charest "utf-8";
+body{
+}
+
+#imgg_b{
+  float:left;
+}
+
+#main{
+    position:absolute;
+    top:200px;;
+    left:840px;
+}
+
+h1{
+  text-align :center;
+  padding: 0 0 10px 0;
+  font-size: 30px;
+  color: #1F8B61;
+}
+
+.login .top {
+  width: 329px;
+}
+
+/*아이디,비번*/
+.login .top li{
+  padding: 0 0 10px;
+}
+.login .top li label{
+  display: inline-block;
+  width: 100px;
+  font-size: 16px;
+  color: #1F8B61;
+  font-family: dotum;
+  font-weight: bold;
+}
+
+/*아이디,비번 창*/
+.login .top li input[type="text"], .login .top li input[type="password"]{
+  width:200px;
+  height:29px;
+  padding:0;
+  border-color: #1F8B61;
+  border-width: 1px;
+}
+
+/*로그인*/
+.login .top li .btn{
+  position:absolute;
+  right:0;
+  top:0;
+}
+.login .top li a{
+  display:block;
+  width:300px;
+  height:65px;
+  background:#1F8B61;
+  border:1px solid #1F8B61;
+  font-size: 17px;
+  color:#FFF;
+  text-align:center;
+  line-height:69px;
+  font-weight:bold;
+}
+
+/*아이디 저장*/
+.login .top li .save{
+  padding: 0 0 0 59px;
+}
+.login .top li .save label{
+  width: auto;
+  font-weight: normal;
+}
+
+/*아이디, 비번 찾기*/
+.login .btm {
+  padding: 15px 0 0 25px;
+}
+.login .btm li {
+  padding: 0 0 0 9px;
+  color:#1F8B61;
+  font-size:12px;
+  font-family: dotum;
+  line-height: 24px;
+}
+.login .btm li a{
+  margin: 0 0 0 10px;
+  font-size: 12px;
+  font-family: dotum;
+  font-weight: bold;
+  color:#1F8B61;
+  text-decoration: underline;
+}

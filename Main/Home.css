@@ -1,0 +1,258 @@
+
+/*배너*/
+body{
+  min-width: 1920px;
+  background-color: #e6edd4;
+}
+header {
+  height: 81px;
+  text-align: center;
+}
+
+header h1{
+  position: absolute;
+  left: 360px;
+  top: 0;
+  padding: 20px 0 0;
+}
+
+header h1 a{
+  display: block;
+  width: 270px;
+  height: 90px;
+  color: transparent;
+  background: url("../img/home_be.png") no-repeat;
+}
+
+
+/*메뉴*/
+header .menu li{
+  display: inline-block;
+  top: 100px;
+}
+
+header .menu li a{
+  display: block;
+  height: 81px;
+  padding: 20px 45px;
+  font-size: 18px;
+  color: #333;
+  line-height: 81px;
+}
+
+header .menu li a:hover{ /*마우스 대면*/
+  color: #ee6e51;
+  font-weight: bold;
+  text-decoration: underline;
+  background
+}
+
+/*로그인*/
+header .log {
+  position: absolute;
+  left: 1430px;
+  width: 100px;
+  top: 45px;
+}
+
+header .log li. a{
+  display: block;
+  height: 90px;
+  padding: 10px 10px;
+  line-height: 81px;
+  font-size: 20px;
+}
+
+header .log li:last-child a {
+  padding-right: 0px;
+}
+
+/*화면*/
+.visual{
+  position: relative;
+  padding: 0 50px;
+}
+.visual .control{
+  position: absolute;
+  left:0;
+  bottom: 55px;
+  width: 100%;
+  text-align: center;
+}
+/*
+.visual .control >div{
+  display: inline-block;
+  position: relative;
+  padding: 0 45px 0 0;
+}
+.visual .control >div >div{
+  position: absolute;
+  right: 0;n
+}
+.visual .control >div >div a{
+  overflow: hidden;
+  display: inline-block;
+  margin: 0 0 0 7px;
+  width: 8px;
+  height: 9px;
+  background: url("../img/home_start.png") no-repeat;
+  opacity: 0.5;
+}
+.visual .control >div >div a.on{
+  opacity: 1;
+}
+
+.visual .control ul{
+  display: inline-block;
+  position: relative;
+  top:-7px;
+  font-size: 0;
+}
+.visual .control li{
+  display: inline-block;
+  padding: 0 3px;
+}
+.visual .control li .on a{
+  background: #fff;
+}
+.visual .control li a{
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+.visual .control a{
+  color: transparent;
+}
+*/
+.visual .con >div{
+  height: 650px;
+}
+.visual .con .slide{
+  background: url("../img/home_background.png") no-repeat center;
+}
+.visual .con .slide p{
+  font-size:5px;
+}
+.visual .con .slide .txt{
+  position: absolute;
+  left: 1500px;
+  top:50px;
+}
+
+
+/*버튼*/
+.notice {
+}
+.notice > div{
+  width: 1180px;
+  margin: 0 auto;
+  padding: 55px 0;
+}
+.notice >div .top >ul{
+  float: left;
+}
+.notice >div .top >ul a{ /*위치, 크기*/
+  display: block;
+  padding: 100px 0 0;
+  width: 280px;
+  height: 280px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 17px;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.notice >div .top >ul a span{/*보이지 않는 상태로 두기*/
+  display: none;
+}
+.notice >div .top >ul a:hover{/*연한 창*/
+  background: rgba(217, 226, 191, 0.5);
+}
+.notice >div .top >ul a:hover span{ /*span 글자*/
+  display: block;
+  padding: 20px 0 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+.notice >div .top >ul li{
+  float: left;
+  padding: 0 20px 0 0;
+}
+.notice >div .top >ul li:nth-child(1){ /*이미지 삽입*/
+  background:url("../img/home_be_notice.png") no-repeat;
+}
+.notice >div .top >ul li:nth-child(2){
+  background:url("../img/home_be_notice2.png") no-repeat;
+}
+.notice >div .top >ul li:nth-child(3){
+  background:url("../img/home_be_notice.png") no-repeat;
+}
+
+/*검색창*/
+.notice >div .top >div {
+  float: left;
+  padding: 36px 20px 0;
+  width: 280px;
+  height: 280px;
+  background: #f2f0ed;
+  box-sizing: border-box;
+}
+.notice >div .top >div h2{
+  padding: 0 0 29px;
+  font-size: 17px;
+  color: #000;
+  text-align: center;
+  line-height: 100%;
+}
+.notice >div .top >div div{
+  padding: 0 0 10px;
+}
+.notice >div .top > div select, .notice >div .top >div input{
+  width: 100%;
+  height:45px;
+  border: none;
+  text-indent: 20px;
+}
+.notice >div .top >div input::-webkit -input-placeholder{
+  color: #949394;
+  font-size: 14px;
+}
+.notice >div .top >div a{
+  display: block;
+  margin: 20px 0 0;
+  height: 45px;
+  background: #1F8B61;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight:bold;
+}
+
+/*하단*/
+footer{
+  background-color: #9aa777;
+  padding: 10px;
+  height: 130px;
+}
+footer >div{
+  width: 1175px;
+  padding: 10px;
+  margin: 0 auto;
+}
+footer >div .bot{
+  float: left;
+}
+footer >div .bot p span{
+  padding: 0 30px 0 0 ;
+}
+footer >div .bot li{
+  list-style: none;
+  line-height: 23px;
+  font-size:12px;
+  font:bold;
+  color: #141412;
+}
